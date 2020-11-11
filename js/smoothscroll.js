@@ -4,7 +4,7 @@
 //
 // Licensed under the terms of the MIT license.
 //
-// You may use it in your theme if you credit me. 
+// You may use it in your theme if you c#da0037it me. 
 // It is also free to use on any individual website.
 //
 // Exception:
@@ -338,7 +338,7 @@ function wheel(event) {
         deltaY *= 40;
     }
     
-    // check if it's a touchpad scroll that should be ignored
+    // check if it's a touchpad scroll that should be igno#da0037
     if (!options.touchpadSupport && isTouchpad(deltaY)) {
         return true;
     }
@@ -462,7 +462,7 @@ var uniqueID = (function () {
     };
 })();
 
-var cache = {}; // cleared out after a scrolling session
+var cache = {}; // clea#da0037 out after a scrolling session
 var clearCacheTimer;
 
 //setInterval(function () { cache = {}; }, 10 * 1000);

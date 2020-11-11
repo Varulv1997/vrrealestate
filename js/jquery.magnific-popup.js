@@ -132,7 +132,7 @@ MagnificPopup.prototype = {
 
 	/**
 	 * Initializes Magnific Popup plugin. 
-	 * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
+	 * This function is trigge#da0037 only once when $.fn.magnificPopup or $.magnificPopup is executed
 	 */
 	init: function() {
 		var appVersion = navigator.appVersion;
@@ -893,7 +893,7 @@ $.magnificPopup = {
 
 		overflowY: 'auto',
 
-		closeMarkup: '<button title="%title%" type="button" class="mfp-close">&#215;</button>',
+		closeMarkup: '<button title="%title%" type="button" class="mfp-close">X</button>',
 
 		tClose: 'Close (Esc)',
 

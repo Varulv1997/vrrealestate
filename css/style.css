@@ -1,11 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Go.arch 
-  Description: Go.arch  - Architecture | Interiors |  Real Estate Landing Page
-  Author: Murren
-  Author URI: http://themeforest.net/user/murren20
-  Version: 1.0
-  
   1.  Global
 
       1.1 General
@@ -92,21 +86,21 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #4ec573;
+  background: #42afaf;
 }
 
 ::selection{
-  background-color:#4ec573;
+  background-color:#42afaf;
   color:#fff;
 }
 
 -webkit-::selection{
-    background-color:#4ec573;
+    background-color:#42afaf;
     color:#fff;
 }
 
 ::-moz-selection{
-    background-color:#4ec573;
+    background-color:#42afaf;
     color:#fff;
 }
 
@@ -140,7 +134,7 @@ h1,
   line-height: 1.2;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: #3d3d3d;
+  color: #2A2731;
 }
 
 h2,
@@ -150,7 +144,7 @@ h2,
   font-size: 2.1875em;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: #3d3d3d;
+  color: #2A2731;
 }
 
 h3,
@@ -159,7 +153,7 @@ h3,
   font-size: 1.875em;
   line-height: 1.1;
   font-weight: normal;
-  color:#3d3d3d;
+  color:#2A2731;
 }
 
 h4,
@@ -168,7 +162,7 @@ h4,
   font-size: 1.125em;
   line-height: 1.35;
   font-weight: normal;
-  color:#3d3d3d;
+  color:#2A2731;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -209,7 +203,7 @@ ul{
 }
 
 a {
-  color:#4ec573;
+  color:#42afaf;
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
@@ -217,7 +211,7 @@ a {
 
 a:hover,
 a:focus {
-  color:#4ec573;
+  color:#42afaf;
   outline: none;
 }
 
@@ -255,7 +249,7 @@ textarea.form-control{
 }
 
 .form-control:focus{
-  border-color:#4ec573;
+  border-color:#42afaf;
   background-color: #fff;
   outline: 0;
   -webkit-box-shadow:none;
@@ -276,7 +270,7 @@ textarea.form-control{
 }
 
 .form-control.error{
-  border-color:#4ec573;
+  border-color:#42afaf;
 }
 
 .form-group{
@@ -302,7 +296,7 @@ label.error{
   font-family: 'montserratsemibold';
   position: relative;
   display: inline-block;
-  border:0.2em solid #4ec573;
+  border:0.2em solid #42afaf;
   border-radius: 30px;
   padding:1.1em 2.2em 1.05em;
   font-size: 0.875em;
@@ -310,7 +304,7 @@ label.error{
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #4ec573;
+  background-color: #42afaf;
   border:0;
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
@@ -319,7 +313,7 @@ label.error{
 .btn:hover,
 .btn:focus{
   color: #fff;
-  background-color: #4ec573;
+  background-color: #42afaf;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -333,13 +327,13 @@ label.error{
 }
 
 .btn-gray{
-  background-color: #323232;
-  border-color: #323232;
+  background-color: #2A2731;
+  border-color: #2A2731;
 }
 
 .btn-gray:hover{
 
-  background-color: #4ec573;
+  background-color: #42afaf;
 }
 
 .btn-shadow-1{
@@ -347,7 +341,7 @@ label.error{
 }
 
 .btn-shadow-2{
-  box-shadow:0 15px 34px rgba(197,164,126,0.5);
+  box-shadow:0 15px 34px #2A2731;
 }
 
 
@@ -420,7 +414,7 @@ label.error{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #4ec573;
+  background-color: #42afaf;
   -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
           animation: sk-foldCubeAngle 2.4s infinite linear both;
   -webkit-transform-origin: 100% 100%;
@@ -502,7 +496,7 @@ label.error{
 }
 
 .text-primary{
-  color:#4ec573;
+  color:#42afaf;
 }
 
 .page-lines{
@@ -623,12 +617,12 @@ label.error{
   font-weight: 700;
   font-size:4vmin;
   line-height: 1;
-  color: #3d3d3d;
+  color: #2A2731;
 }
 
 .brand:hover,
 .brand:focus{
-  color: #3d3d3d;
+  color: #2A2731;
   text-decoration: none;
 }
 
@@ -661,7 +655,7 @@ label.error{
   top:-3px;
   font-size: 2vmin;
   letter-spacing: 0.1em;
-  color: #3d3d3d;
+  color: #2A2731;
   vertical-align: top;
   margin-left: 0.46em;
 }
@@ -740,7 +734,7 @@ label.error{
   white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 1em;
-  color: #3d3d3d;
+  color: #2A2731;
   position: relative;
   left: -6px;
   margin:0 auto;
@@ -771,7 +765,7 @@ label.error{
 }
 
 .social-list .fa:hover{
-  color:#4ec573;
+  color:#42afaf;
   text-decoration: none;
 }
 
@@ -798,7 +792,7 @@ label.error{
   left:0;
   width: 100%;
   padding:5.9vmin 0 0;
-      background: #00000073;
+      background: #2A273173;
 }
 
 .navbar-desctop .brand{
@@ -832,7 +826,7 @@ label.error{
 
 .navbar-desctop-menu li a:hover,
 .navbar-desctop-menu .active > a{
-  color:  #4ec573;
+  color:  #42afaf;
 }
 
 .navbar-desctop-menu  > li{
@@ -918,7 +912,7 @@ label.error{
 
 .navbar-desctop.affix .navbar-desctop-menu li > a:hover,
 .navbar-desctop.affix .navbar-desctop-menu .active > a{
-  color:#4ec573;
+  color:#42afaf;
 }
 
 
@@ -1000,7 +994,7 @@ label.error{
 }
 
 .navbar-nav-mobile > .current > a{
-  color: #4ec573;
+  color: #42afaf;
 }
 
 .navbar-nav-mobile li a .fa-angle-down{
@@ -1020,7 +1014,7 @@ label.error{
 
 .navbar-nav-mobile > .active > a,
 .navbar-nav-mobile > .active > a:hover{
-  background-color: #4ec573;
+  background-color: #42afaf;
   color: #fff;
   -webkit-transition: none;
   -o-transition: none;
@@ -1033,7 +1027,7 @@ label.error{
 
 .navbar-nav-mobile li a:hover,
 .navbar-nav-mobile li .active > a{
-  color: #4ec573;
+  color: #42afaf;
 }
 
 
@@ -1055,7 +1049,7 @@ label.error{
 }
 
 .navbar-mobile.affix .navbar-toggle .icon-bar{
-  background-color:#4ec573;
+  background-color:#42afaf;
 }
 
 
@@ -1304,7 +1298,7 @@ label.error{
   height: 9em;
   margin:-4.5em;
   border-radius: 50%;
-  background-color: #4ec573;
+  background-color: #42afaf;
   overflow: hidden;
   opacity: 0;
   -webkit-transform: scale(0.5);
@@ -1446,7 +1440,7 @@ img.mfp-img{
 }
 
 .mfp-bg{
-  background-color: #141414;
+  background-color: #2A2731;
 }
 
 .mfp-arrow-left:before, .mfp-arrow-left .mfp-b{
@@ -1582,7 +1576,7 @@ img.mfp-img{
   overflow: hidden;
   margin-bottom: 0;
   background: #fff;
-  color:#363636;
+  color:#2A2731;
   mix-blend-mode: lighten;
   -ms-mix-blend-mode:lighten;
 }
@@ -1650,7 +1644,7 @@ img.mfp-img{
   position: absolute;
   width: 1em;
   height: 1em;
-  background-color: #4ec573;
+  background-color: #42afaf;
   border-radius: 50%;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -1704,7 +1698,7 @@ img.mfp-img{
   font-weight: normal;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color:#4ec573;
+  color:#42afaf;
   padding: 0 0 1em;
   border-bottom:1px solid rgba(249,249,249,0.2);
   margin: 0 0 .5em;
